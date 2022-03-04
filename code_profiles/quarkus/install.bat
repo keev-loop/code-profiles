@@ -1,2 +1,1 @@
-powershell -executionpolicy bypass -File extensions.ps1
-exit
+for /F "tokens=*" %%A in (extensions.list) do code --install-extension %%A --extensions-dir exts

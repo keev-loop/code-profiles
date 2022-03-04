@@ -9,8 +9,6 @@
 @echo	- web
 set /p profile="Enter a name Profile: "
 
-mkdir code_profiles\%profile%\data
-mkdir code_profiles\%profile%\exts
 cd code_profiles
 cd %profile%
 install.bat

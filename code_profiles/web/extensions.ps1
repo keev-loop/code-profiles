@@ -1,1 +1,0 @@
-cat extensions.list |% { code --install-extension $_ --extensions-dir exts}
